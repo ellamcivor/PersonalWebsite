@@ -1,0 +1,143 @@
+.background-container {
+  /* background-color: rgba(255, 192, 203, 0.682); */
+  width: 50%;
+  height: 100%;
+  right: 0px;
+  overflow: hidden;
+}
+
+.background-paper {
+  width: 100%;
+  top: -20px;
+  z-index: 3;
+}
+
+#home-page-title {
+  height: 20%;
+  top: 5%;
+  left: 4%;
+  z-index: 3;
+}
+
+#personal-photo {
+  height: 60%;
+  top: 30%;
+  left: 8%;
+  z-index: 3;
+}
+
+#blue-gingham-tape-1,
+#blue-gingham-tape-2,
+#pink-tape-1,
+#pink-tape-2 {
+  height: 6%;
+  z-index: 3;
+}
+
+#blue-gingham-tape-1,
+#blue-gingham-tape-2 {
+  transform: rotate(33deg);
+}
+
+#blue-gingham-tape-1 {
+  top: 37%;
+  left: 27%;
+}
+
+#blue-gingham-tape-2 {
+  top: 80%;
+  left: 10%;
+}
+
+#pink-tape-1,
+#pink-tape-2 {
+  transform: rotate(-48deg);
+}
+
+#pink-tape-1 {
+  top: 41%;
+  left: 7%;
+}
+
+#pink-tape-2 {
+  top: 75%;
+  left: 31%;
+}
+
+#envelope {
+  height: 45%;
+  top: 4%;
+  right: 23%;
+  z-index: 11;
+}
+
+#bubble {
+  height: 30%;
+  right: 0%;
+  bottom: 30%;
+  transform: rotate(5deg);
+  z-index: 9;
+}
+
+#pink-flower {
+  height: 23%;
+  right: 0%;
+  top: 25%;
+  z-index: 10;
+}
+
+#pink-paper-scrap {
+  height: 40%;
+  width: 33%;
+  right: 16%;
+  bottom: 0%;
+  z-index: 3;
+}
+
+#envelope-text {
+  font-size: 1.5vw;
+  top: 16%;
+  right: 33%;
+  transform: rotate(20deg);
+  text-align: center;
+  z-index: 12;
+}
+
+#bubble-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 160%;
+  bottom: 35%;
+  right: 1.8%;
+  z-index: 10;
+}
+
+.highlighted {
+  background-color: #D0E2CA;
+  /* background-color: #99e7ff62; */
+  width: fit-content;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.rotate-1 {
+  transform: rotate(3deg);
+}
+
+.rotate-2 {
+  transform: rotate(4deg);
+}
+
+#about-me-paragraph {
+  font-size: 0.9vw;
+  width: 30%;
+  /* text-align: center; */
+  right: 14%;
+  top: 65%;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 3;
+  /* color: rgb(95, 92, 92); */
+}

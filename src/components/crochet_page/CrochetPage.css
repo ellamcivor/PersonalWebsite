@@ -1,0 +1,158 @@
+.background-paper-1 {
+  height: 100%;
+  width: 100%;
+}
+
+.divide {
+  height: 99%;
+  width: 0.3%;
+  background-color: rgba(63, 26, 26, 0.69);
+  left: 50%;
+  top: 0.5%;
+}
+
+.title {
+  width: 65%;
+  left: 17.5%;
+  top: 10%;
+  filter: drop-shadow(3px 1px 2.7px #535353);
+}
+
+.crochet-item-container {
+  height: 20%;
+  aspect-ratio: 50 / 50;
+  transition: transform .2s;
+  /* background-color: blue; */
+}
+
+/* .crochet-item-container:hover {
+  transform: scale(1.1) rotate(16deg);
+} */
+
+.crochet-item {
+  height: 100%;
+  filter: drop-shadow(1px 1px 7px #525252);
+}
+
+/* .crochet-item:hover {
+  transform: scale(1.1) rotate(30deg);
+} */
+
+#heart-container {
+  top: 28%;
+  left: 3%;
+}
+
+#heart-container:hover {
+  transform: scale(1.1) rotate(-20deg);
+}
+
+#heart {
+  transform: rotate(20deg);
+}
+
+#hat-container {
+  top: 34%;
+  left: 22%;
+  height: 23%;
+
+}
+
+#hat-container:hover {
+  transform: scale(1.1) rotate(16deg);
+}
+
+#hat {
+  transform: rotate(-12deg);
+}
+
+#glove-container {
+  bottom: 6%;
+  left: 30px;
+  height: 37%;
+}
+
+#glove-container:hover {
+  transform: scale(1.1) rotate(16deg);
+}
+
+#wasteland-pillow-container {
+  height: 25%;
+  bottom: 8%;
+  left: 27%;
+}
+
+#wasteland-pillow-container:hover {
+  transform: scale(1.1) rotate(16deg);
+}
+
+#wasteland-pillow {
+  transform: rotate(-10deg);
+}
+
+#strawberry-container {
+  top: 19%;
+  right: 4%;
+}
+
+#strawberry-container:hover {
+  transform: scale(1.1) rotate(16deg);
+}
+
+#strawberry {
+  transform: rotate(-10deg);
+}
+
+#turtle-container {
+  height: 16%;
+  top: 30%;
+  right: 32%;
+}
+
+#turtle-container:hover {
+  transform: scale(1.1) rotate(-16deg);
+}
+
+#turtle {
+  transform: rotate(8deg);
+}
+
+#lake-pillow-container {
+  bottom: 37%;
+  right: 15%;
+}
+
+#lake-pillow-container:hover {
+  transform: scale(1.1) rotate(-20deg);
+}
+
+#lake-pillow {
+  transform: rotate(28deg);
+}
+
+#star-pillow-container {
+  height: 28%;
+  bottom: 16%;
+  right: 28%;
+}
+
+#star-pillow-container:hover {
+  transform: scale(1.1) rotate(16deg);
+}
+
+#star-pillow {
+  transform: rotate(-5deg);
+}
+
+#dumpling-container {
+  bottom: 8%;
+  right: 11%;
+}
+
+#dumpling-container:hover {
+  transform: scale(1.1) rotate(-20deg);
+}
+
+#dumpling {
+  transform: rotate(20deg);
+}

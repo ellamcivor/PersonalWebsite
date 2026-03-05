@@ -1,0 +1,13 @@
+:root {
+  background-color: #C57689;
+  height: 100%;
+  margin: 0;
+}
+
+html, body {
+  cursor: url(./assets/custom-cursor.png) 0 0, auto;
+}
+
+.glue-on {
+  position: absolute;
+}

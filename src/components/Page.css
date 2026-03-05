@@ -1,0 +1,79 @@
+.page-container {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex: 5; */
+  flex: 8;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.notebook-container {
+  /* background-color: lightblue; */
+  width: 70vw;
+  aspect-ratio: 940 / 650;
+  max-width: 940px;
+  /* background: url(../assets/notebook.JPG) no-repeat center center; */
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 3;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1420px) {
+  .notebook-container {
+    width: 65vw;
+  }
+}
+
+@media (min-width: 1421px) {
+  .notebook-container {
+    width: 70vw;
+  }
+}
+
+.notebook-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.specific-page-container {
+  /* background-color: rgba(173, 216, 230, 0.547); */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-size: clamp(12px, 1vw, 16px);
+  z-index: 3;
+}
+
+.left-page-container, .right-page-container {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 4;
+  overflow: hidden;
+}
+
+.left-page-container {
+  /* background-color: blue; */
+  left: 0;
+}
+
+.right-page-container {
+  /* background-color: red; */
+  right: 0;
+}
+
+.glue-on {
+  position: absolute;
+}

@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "project1",
+      "name": "molecule_\nreplicator",
+      "fileColor": "green",
+      "description": "this is a temporary description for molecule replicator \n Constructed a full-stack application that converts SDF representations of molecules to 3D SVG images. Implemented functionality to display and rotate models of converted molecules.Developed with C, Python, SQLite, HTML, CSS and JavaScript. this is a temporary description for molecule replicator \n Constructed a full-stack application that converts SDF representations of molecules to 3D SVG images. Implemented functionality to display and rotate models of converted molecules.Developed with C, Python, SQLite, HTML, CSS and JavaScript.",
+      "link": "https://github.com/ellamcivor/MoleculeReplicator",
+      "imageUrl": "./images/temp-image.png"
+    },
+    {
+      "id": "project2",
+      "name": "project2",
+      "fileColor": "yellow",
+      "description": "this is a temporary description for project2",
+      "link": "this is a temporary link",
+      "imageUrl": "https://i.guim.co.uk/img/media/7c2ab1a3e60e445caf0a4d3de302591e830e8f7f/0_0_3800_2280/master/3800.jpg?width=1900&dpr=2&s=none&crop=none"
+    },
+    {
+      "id": "project3",
+      "name": "project3",
+      "fileColor": "pink",
+      "description": "this is a temporary description for project3",
+      "link": "this is a temporary link",
+      "imageUrl": "this is a temporary image"
+    },
+    {
+      "id": "project4",
+      "name": "project4",
+      "fileColor": "blue",
+      "description": "this is a temporary description for project4",
+      "link": "this is a temporary link",
+      "imageUrl": "this is a temporary image"
+    },
+    {
+      "id": "project5",
+      "name": "project5",
+      "fileColor": "lightPurple",
+      "description": "this is a temporary description for project5",
+      "link": "this is a temporary link",
+      "imageUrl": "this is a temporary image"
+    },
+    {
+      "id": "project6",
+      "name": "project6",
+      "fileColor": "green",
+      "description": "this is a temporary description for project6",
+      "link": "this is a temporary link",
+      "imageUrl": "this is a temporary image"
+    },
+    {
+      "id": "project7",
+      "name": "project7",
+      "fileColor": "darkPurple",
+      "description": "this is a temporary description for project7",
+      "link": "this is a temporary link",
+      "imageUrl": "this is a temporary image"
+    }
+  ]
+}

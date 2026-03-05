@@ -1,0 +1,30 @@
+.folder-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow: hidden;
+  /* background-color: red;
+  border: solid black; */
+  margin: 10% 10%;
+  cursor: url(../../assets/custom-pointer.png), pointer;
+}
+
+.folder {
+  width: 100%;
+  filter: drop-shadow(2.5px 2.5px 2px #64636386);
+  margin-bottom: 2%;
+}
+
+.folder-text {
+  font-family: "Pixelify Sans", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-size: 1vw;
+  font-style: normal;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.folder-text.selected {
+  background-color: #3390ff;
+  border-radius: 4px;
+  color: white;
+}

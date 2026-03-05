@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.header-container {
+  /* background-color: lightblue; */
+  background: url(../assets/background.PNG) no-repeat center center/ cover;
+  height: 70px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  flex-shrink: 0;
+}
+
+.header-title {
+  color: rgb(167, 75, 90);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  /* text-align: center; */
+}
+
+.last-name {
+  color: rgb(118, 53, 64);
+}

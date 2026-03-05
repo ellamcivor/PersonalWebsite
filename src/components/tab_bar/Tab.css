@@ -1,0 +1,93 @@
+.tab-container {
+  position: relative;
+  /* border: 2px solid black; */
+  height: 30%;
+  aspect-ratio: 170 / 320;
+  overflow: hidden;
+  cursor: url(../../assets/custom-pointer.png), pointer;
+}
+
+.maroon-tab {
+  background: url(./images/maroon-tab.png) no-repeat center center;
+  background-size: contain;
+}
+.green-tab {
+  background: url(./images/green-tab.png) no-repeat center center;
+  background-size: contain;
+}
+.orange-tab {
+  background: url(./images/orange-tab.png) no-repeat center center;
+  background-size: contain;
+}
+.blue-tab {
+  background: url(./images/blue-tab.png) no-repeat center center;
+  background-size: contain;
+}
+
+.pink-tab {
+  background: url(./images/pink-tab.png) no-repeat center center;
+  background-size: contain;
+}
+
+.tab-container-unselected-left {
+  z-index: 1;
+  margin-left: 18%;
+  height: 38%;
+}
+
+.tab-container-unselected-right {
+  z-index: 1;
+  margin-right: 18%;
+  height: 38%;
+  /* margin-right: 30px; */
+}
+
+.tab-container-selected-left, .tab-container-selected-right {
+  z-index: 8;
+}
+
+
+.left-rotation {
+  transform: rotate(-90deg);
+}
+
+.right-rotation {
+  transform: rotate(90deg);
+}
+
+.tab-text-left, .tab-text-right {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-size: 1.7vw;
+  font-style: normal;
+  text-align: center;
+  position: absolute;
+  color: #fff;
+  white-space: nowrap;
+  /* width: 80px;
+  height: 120px;  */
+}
+
+.tab-text-unselected-left {
+  transform: translate(-50%, 10%) rotate(90deg);
+  bottom: 50%;
+  left: 50%;
+}
+
+.tab-text-selected-left {
+  transform: translate(-50%, 10%) rotate(90deg);
+  top: 50%;
+  left: 50%;
+}
+
+.tab-text-unselected-right {
+  transform: translate(62%, 10%) rotate(-90deg);
+  top: 36%;
+  right: 57%;
+}
+
+.tab-text-selected-right {
+  transform: translate(62%, 10%) rotate(-90deg);
+  top: 50%;
+  right: 55%;
+}
