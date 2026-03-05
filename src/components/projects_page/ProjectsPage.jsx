@@ -1,4 +1,3 @@
-import '../Page.css';
 import './ProjectsPage.css';
 import { useState } from "react";
 import LeftBackground from './images/pink-plaid-background.jpg';

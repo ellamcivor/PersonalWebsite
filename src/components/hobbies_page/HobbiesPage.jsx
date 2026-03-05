@@ -1,4 +1,3 @@
-import '../Page.css';
 // import './HobbiesPage.css';
 
 export function HobbiesPage() {

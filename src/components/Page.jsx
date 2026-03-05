@@ -7,6 +7,8 @@ import { ProjectsPage } from './projects_page/ProjectsPage';
 import { ExperiencePage } from './experience_page/ExperiencePage';
 import { HobbiesPage } from './hobbies_page/HobbiesPage';
 import { CrochetPage } from './crochet_page/CrochetPage';
+import { JournalsPage } from './journals_page/JournalsPage';
+import { JournalEntry } from './journals_page/JournalEntry';
 
 export function Page() {
   const leftTabs = [
@@ -39,9 +41,9 @@ export function Page() {
       link: "/crochet-projects"
     },
     {
-      title: "",
+      title: "Journals",
       color: "pink",
-      link: "/undefined"
+      link: "/journals"
     }
   ];
 
@@ -56,9 +58,11 @@ export function Page() {
         <TabBar side="left" tabs={leftTabs} />
         <TabBar side="right" tabs={rightTabs} />
         <Routes>
-          <Route index element={<HomePage />}></Route>
-          <Route path="projects" element={<ProjectsPage />}></Route>
-          <Route path="crochet-projects" element={<CrochetPage />}></Route>
+          <Route index element={<HomePage />} />
+          <Route path="projects" element={<ProjectsPage />} />
+          <Route path="crochet-projects" element={<CrochetPage />} />
+          <Route path="journals" element={<JournalsPage />} />
+          <Route path="journals/:journalId" element={<JournalEntry />} />
         </Routes>
       </div>
     </div>

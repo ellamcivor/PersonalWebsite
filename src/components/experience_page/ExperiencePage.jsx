@@ -1,4 +1,3 @@
-import '../Page.css';
 // import './ExperiencePage.css';
 
 export function ExperiencePage() {

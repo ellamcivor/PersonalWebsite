@@ -1,4 +1,3 @@
-import '../Page.css';
 import './CrochetPage.css';
 import BackgroundPaper from './images/background-paper.JPG';
 import Title from './images/crochet-projects-title.png';

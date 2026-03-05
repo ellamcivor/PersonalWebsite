@@ -1,4 +1,3 @@
-import '../Page.css';
 import './HomePage.css';
 import HomePageTitle from './images/home-page-title.png';
 import PersonalPhoto from './images/personal-image.PNG';

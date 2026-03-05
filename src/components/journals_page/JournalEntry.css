@@ -1,0 +1,21 @@
+.journal-spread {
+  background-color: rgba(123, 44, 67, 0.654);
+}
+
+.journal-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.journal-page-image {
+  height: 90%;
+}
+
+.spread-controls {
+  z-index: 10;
+}
+
+/* .page-change-btn {
+  z-index: 10;
+} */
