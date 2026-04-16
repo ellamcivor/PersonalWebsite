@@ -8,6 +8,10 @@ html, body {
   cursor: url(./assets/custom-cursor.png) 0 0, auto;
 }
 
+button, a {
+  cursor: url(./assets/custom-pointer.png) 0 0, auto;
+}
+
 .glue-on {
   position: absolute;
 }

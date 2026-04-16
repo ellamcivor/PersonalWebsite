@@ -3,55 +3,186 @@
     {
       "id": "project1",
       "name": "molecule_\nreplicator",
-      "fileColor": "green",
-      "description": "this is a temporary description for molecule replicator \n Constructed a full-stack application that converts SDF representations of molecules to 3D SVG images. Implemented functionality to display and rotate models of converted molecules.Developed with C, Python, SQLite, HTML, CSS and JavaScript. this is a temporary description for molecule replicator \n Constructed a full-stack application that converts SDF representations of molecules to 3D SVG images. Implemented functionality to display and rotate models of converted molecules.Developed with C, Python, SQLite, HTML, CSS and JavaScript.",
+      "date": "2023",
+      "fileColor": "lightPurple",
+      "description": {
+        "header": "Molecule Visualization Web Application",
+        "brief": "Built a full-stack molecular visualization system combining a custom C data-processing library with a Python web server to render molecular structures as dynamic SVG graphics in the browser.",
+        "paragraph": "This is a full-stack application that converts molecular structure files into visual molecule renderings in the browser. The system parses uploaded SDF (Structure Data File) molecules, processes their atomic and bond data using a custom C library, and dynamically generates SVG graphics for visualization.\n\nAt the core of the project is a low-level molecular data processing library written in C. The library implements data structures for atoms, bonds, and molecules, along with algorithms for coordinate transformations, sorting atoms by depth, and performing matrix-based rotations in 3D space. Dynamic memory management and pointer-based data structures were used to efficiently represent and manipulate molecular models.\n\nThe C library is compiled into a shared object and exposed to Python using SWIG, allowing it to be integrated into a Python-based web server. The server handles HTTP requests, processes uploaded molecule files, constructs molecular models using the C library, and generates SVG-based visualizations that are served directly to the browser.\n\nThis project demonstrates the integration of systems programming with web-technologies, combining low-level development, Python backend services, and browser-based rendering to build a complete full-stack application."
+      },
+      "keyConcepts": [
+        "Systems programming and memory management",
+        "C/Python interoperability",
+        "Custom data structures and geometric computation",
+        "Matrix transformations and geometric computation",
+        "Web server development and HTTP handling",
+        "Dynamic SVG graphics generation"
+      ],
+      "personalThoughts": "This project was my first experience building a full-stack application. It was the first time I worked with HTML, CSS, and JavaScript on the front end, as well as my first time using Python for backend development. Exploring front-end development felt like discovering an entirely new side of programming, and I quickly found the process of building interactive interfaces both creative and rewarding.\n\nBecause I was new to front-rnd technologies at the time, the visual design of the application is fairly simple. However, the project represents an important milestone in my development and highlights how much my front-end skills have evolved since then. For example, my personal website demonstrates the progress I've made after learning modern frameworks such as React.\n\nWhen I first approached this project it felt overwhelming due to the number of different technologies involved. One of the most valuable lessons I learned was how to break a large system into smaller, manageable components. By focusing on solving on piece of the problem at a time, the overall project became far more approachable and ultimately much easier implement.",
+      "technologies": [
+        {
+          "name": "C",
+          "use": "custom molecular data structures, transformations, memory management"
+        },
+        {
+          "name": "Python",
+          "use": "HTTP server and application logic"
+        },
+        {
+          "name": "SWIG",
+          "use": "C to Python interface"
+        },
+        {
+          "name": "SVG",
+          "use": "molecule rendering"
+        },
+        {
+          "name": "HTML / CSS / Javascript",
+          "use": "front-end development"
+        },
+        {
+          "name": "Git",
+          "use": "used for version control to track changes, manage code history, and support an organized development workflow"
+        }
+      ],
       "link": "https://github.com/ellamcivor/MoleculeReplicator",
-      "imageUrl": "./images/temp-image.png"
+      "imageUrl": "/images/projects/molecule-replicator.png"
     },
     {
       "id": "project2",
-      "name": "project2",
-      "fileColor": "yellow",
-      "description": "this is a temporary description for project2",
-      "link": "this is a temporary link",
+      "name": "tic_tac_\ntoe",
+      "date": "2022",
+      "fileColor": "darkPurple",
+      "description": {
+        "header": "Tic Tac Toe",
+        "paragraph": "This is a Tic Tac Toe application with a graphical user interface as my first experience building a front-end application. The project includes two game modes: a classic version and a Number Tic Tac Toe variation, where the players use assigned odd and even numbers instead of Xs and Os. The application features a full game flow, including a main menu, player profile loading and the ability to start new or resume saved games. I also implemented functionality for saving and loading both game states and player data. Building this project helped me understand how to design user interfaces, manage game state, and structure larger applications, and it marked my introduction to combining logic with visual components in a user-facing program."
+      },
+      "technologies": [
+        {
+          "name": "Java",
+          "use": "used to implement the core game logic, including game rules, player interactions, and overall application structure"
+        },
+        {
+          "name": "Java Swing",
+          "use": "used to build the graphical user interface, including the game board, menus, buttons, and user interactions"
+        },
+        {
+          "name": "Gradle",
+          "use": "used as a build tool to compile the project and manage the application build process"
+        },
+        {
+          "name": "File I/O",
+          "use": "used to implement saving and loading of game states and player profiles through reading from and writing to files"
+        }
+      ],
+      "link": "https://github.com/ellamcivor/TicTacToe",
       "imageUrl": "https://i.guim.co.uk/img/media/7c2ab1a3e60e445caf0a4d3de302591e830e8f7f/0_0_3800_2280/master/3800.jpg?width=1900&dpr=2&s=none&crop=none"
     },
     {
       "id": "project3",
-      "name": "project3",
-      "fileColor": "pink",
-      "description": "this is a temporary description for project3",
-      "link": "this is a temporary link",
-      "imageUrl": "this is a temporary image"
+      "name": "personal_\nwebsite",
+      "date": "2026",
+      "fileColor": "green",
+      "description": {
+        "header": "My Personal Website",
+        "brief": "An interactive, scrapbook-style portfolio website built with React that presents my experience, skills, and personal interests through a notebook-inspired design that reflects my creativity and personality.",
+        "paragraph": "I developed this personal portfolio website using React, designed as an interactive digital journal that reflects both my professional experience and personal interests. The site is styled like a notebook, with clickable tabs that organize sections such as my skills, experience, hobbies and creative projects. Inspired by my love for digital scrapbooking and journaling, I created a scrapbook-style aesthetic using custom drawings and layered design elements to make the experience more expressive. This project gave me the opportunity to further develop my front-end skills while also leaning into my creativity and having the freedom to design something that truly feels like me. I approached it as both a coding project and an art project, with the goal of creating a portfolio that not only shares my work, but also helps people get to know my personality."
+      },
+      "technologies": [
+        {
+          "name": "React",
+          "use": "built the entire front end using a component-based structure, helping to create an interactive and scalable user interface"
+        },
+        {
+          "name": "JavaScript",
+          "use": "implemented interactivity and data handling"
+        },
+        {
+          "name": "HTML/CSS",
+          "use": "structured and styled the application to give the layout a scrapbook-like appearance"
+        },
+        {
+          "name": "JSON",
+          "use": "used to organize and manage data (such as the list of projects on this page), making it simple to update data without changing code"
+        },
+        {
+          "name": "Git",
+          "use": "used for version control to track changes, manage code history, and support an organized development workflow"
+        },
+        {
+          "name": "Procreate",
+          "use": "used to design custom drawing and sticker elements to give the site a unique scrapbook-style look"
+        },
+        {
+          "name": "Figma",
+          "use": "designed the layout and planned the overall look and feel before building the site"
+        }
+      ],
+      "link": "https://github.com/ellamcivor/PersonalWebsite",
+      "imageUrl": "/images/projects/personal-website.png"
     },
     {
       "id": "project4",
-      "name": "project4",
-      "fileColor": "blue",
-      "description": "this is a temporary description for project4",
-      "link": "this is a temporary link",
-      "imageUrl": "this is a temporary image"
+      "name": "hangman",
+      "date": "2026",
+      "fileColor": "yellow",
+      "description": {
+        "header": "Hangman",
+        "brief": "A retro-style Hangman game built with React and JavaScript, featuring custom visuals, interactive input options, hints, and dynamic gameplay against the computer.",
+        "paragraph": "This is a classic hangman game using React, where the player guesses words generated by the computer based on the selected category. The game logic was implemented in JavaScript, handling things like word selection, user input, and game state. The game includes features like an on-screen keyboard as well as support for physical keyboard input, a custom stick figure illustration that visually tracks remaining guesses, and a hint system with up to three hints per round. The game includes a menu popup that allows players to start a new round at any time, switch between different word categories, and view instructions on how to play. For the front-end, I went with a retro-inspired theme and designed all the visuals myself in Figma, including elements like the gingham background and the main game container, which gave me the chance to combine both my development and design skills."
+      },
+      "technologies": [
+        {
+          "name": "React",
+          "use": "built the entire front end using a component-based structure, helping to create an interactive and scalable user interface"
+        },
+        {
+          "name": "JavaScript",
+          "use": "implemented application logic, interactivity and data handling"
+        },
+        {
+          "name": "HTML/CSS",
+          "use": "structured and styled the application to give the game a unique retro appearance"
+        },
+        {
+          "name": "JSON",
+          "use": "used to organize and manage data, such as the list of categories and their related words"
+        },
+        {
+          "name": "Git",
+          "use": "used for version control to track changes, manage code history, and support an organized development workflow"
+        },
+        {
+          "name": "Figma",
+          "use": "used to design the layout and create the background pattern and stick figure image"
+        }
+      ],
+      "link": "https://github.com/ellamcivor/hangman",
+      "imageUrl": "/images/projects/hangman.png"
     },
     {
       "id": "project5",
-      "name": "project5",
-      "fileColor": "lightPurple",
+      "name": "travel_app",
+      "date": "2024",
+      "fileColor": "pink",
       "description": "this is a temporary description for project5",
       "link": "this is a temporary link",
       "imageUrl": "this is a temporary image"
     },
     {
       "id": "project6",
-      "name": "project6",
-      "fileColor": "green",
+      "name": "compiler",
+      "date": "2024",
+      "fileColor": "blue",
       "description": "this is a temporary description for project6",
       "link": "this is a temporary link",
       "imageUrl": "this is a temporary image"
     },
     {
       "id": "project7",
-      "name": "project7",
-      "fileColor": "darkPurple",
+      "name": "my_shelves (in progess)",
+      "date": "2023",
+      "fileColor": "green",
       "description": "this is a temporary description for project7",
       "link": "this is a temporary link",
       "imageUrl": "this is a temporary image"

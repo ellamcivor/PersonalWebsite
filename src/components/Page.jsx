@@ -60,6 +60,7 @@ export function Page() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="projects" element={<ProjectsPage />} />
+          <Route path="hobbies" element={<HobbiesPage />}></Route> 
           <Route path="crochet-projects" element={<CrochetPage />} />
           <Route path="journals" element={<JournalsPage />} />
           <Route path="journals/:journalId" element={<JournalEntry />} />

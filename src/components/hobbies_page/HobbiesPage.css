@@ -1,0 +1,137 @@
+#hobbies-gingham-paper-1 {
+  top: 6%;
+  left: 4%;
+  height: 45%;
+  z-index: 12;
+}
+
+#hobbies-star-paper {
+  top: 35%;
+  left: 18%;
+  height: 40%;
+  z-index: 11;
+}
+
+#hobbies-pink-scrap-paper {
+  bottom: 4%;
+  left: 5%;
+  height: 40%;
+}
+
+#hobbies-pink-striped-paper {
+  height: 80%;
+  top: 16%;
+  right: 5%;
+}
+
+#hobbies-sticker-puzzle-polaroid {
+  top: 3%;
+  left: 3%;
+  height: 40%;
+  z-index: 12;
+}
+
+#hobbies-sticker-sudoku {
+  top: 15%;
+  left: 26%;
+  height: 27%;
+  z-index: 12;
+}
+
+#hobbies-sticker-guitar {
+  height: 33%;
+  top: 40%;
+  left: 6%;
+  z-index: 14;
+}
+
+#hobbies-sticker-painting {
+  bottom: 1%;
+  left: 2%;
+  height: 30%;
+  z-index: 12;
+}
+
+#hobbies-sticker-laptop {
+  z-index: 14;
+  height: 28%;
+  bottom: 15%;
+  left: 16%;
+}
+
+#hobbies-page-title {
+  z-index: 15;
+  height: 20%;
+  top: 42%;
+  left: 30%;
+}
+
+#hobbiesgingham-paper-2 {
+  top: 4%;
+  right: 2%;
+  height: 46%;
+}
+
+#hobbies-sticker-musical-stars {
+  height: 30%;
+  right: 5%;
+  top: 5%;
+  z-index: 13;
+}
+
+#hobbies-sticker-piano {
+  top: 35%;
+  right: 0;
+  height: 32%;
+  z-index: 15;
+}
+
+#hobbies-sticker-paddle-board {
+  z-index: 15;
+  bottom: 6%;
+  right: 15%;
+  height: 33%
+}
+
+#hobbies-sticker-paint-palette {
+  height: 40%;
+  top: 3%;
+  right: 17%;
+  z-index: 14;
+}
+
+#hobbies-sticker-crochet-heart {
+  height: 18%;
+  left: 47%;
+  top: 7%;
+  z-index: 15;
+}
+
+#hobbies-sticker-books {
+  z-index: 17;
+  height: 27%;
+  bottom: 3%;
+  left: 33%;
+}
+
+#hobbies-sticker-drawing {
+  z-index: 15;
+  height: 27%;
+  bottom: 0%;
+  right: 0%;
+}
+
+#hobbies-sticker-fcp {
+  z-index: 15;
+  height: 10%;
+  top: 50%;
+  right: 18%;
+}
+
+#hobbies-sticker-watercolour-painting {
+  z-index: 16;
+  height: 27%;
+  bottom: 12%; 
+  right: 32%;
+  transform: rotate(30deg);
+}

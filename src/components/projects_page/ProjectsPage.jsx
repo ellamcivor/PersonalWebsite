@@ -11,7 +11,11 @@ export function ProjectsPage() {
   const [selectedFolder, setSelectedFolder] = useState(null);
   const [selectedTab, setSelectedTab] = useState("about-tab");
 
-  const projects = projects_data.projects;
+  const projects = [...projects_data.projects].sort(
+    (a, b) => Number(b.date) - Number(a.date)
+  );
+
+  // const projects = projects_data.projects;
 
   const selectedProject = projects.find(
     (project) => project.id === selectedFolder
@@ -32,18 +36,71 @@ export function ProjectsPage() {
             <div className={`tab-button ${selectedTab === "about-tab" ? "selected-tab" : ""}`} onClick={() => setSelectedTab("about-tab")}>
               About
             </div>
+            <div className={`tab-button ${selectedTab === "tech-tab" ? "selected-tab" : ""}`} onClick={() => setSelectedTab("tech-tab")}>
+              Tech
+            </div>
             <div className={`tab-button ${selectedTab === "view-tab" ? "selected-tab" : ""}`} onClick={() => setSelectedTab("view-tab")}>
               View
             </div>
             <div className='tab-button'>
-              Link
+              {selectedProject && (
+                <a
+                  className='code-link'
+                  href={selectedProject.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Link
+                </a>
+              )}
             </div>
           </div>
-          <div className='window-content-container glue-on'>
+          <div
+            className={`window-content-container glue-on 
+            ${selectedTab === 'about-tab' && 'about-container'} 
+            ${selectedTab === 'tech-tab' && 'tech-container'}
+            ${selectedTab === 'view-tab' && 'view-container'}`}
+          >
             {selectedTab === 'about-tab' && selectedProject && (
               <div className="project-description">
-                {selectedProject.description}
+                {selectedProject.description.header && (
+                  <>
+                    <span className='project-header'>{selectedProject.description.header}</span>
+                    <br />
+                  </>
+                )}
+                {selectedProject.date && (
+                  <>
+                    {selectedProject.date}
+                    <br /><br />
+                  </>
+                )}
+                {selectedProject.description.paragraph && (
+                  <>
+                    {selectedProject.description.paragraph}
+                    <br /><br />
+                  </>
+                )}
+                {selectedProject.personalThoughts && (
+                  <>
+                    <span className='project-header'>Personal Thoughts</span>
+                    <br /><br />
+                    {selectedProject.personalThoughts}
+                  </>
+                )}
               </div>
+            )}
+            {selectedTab === 'tech-tab' && selectedProject && (
+              (selectedProject.technologies && (
+                <ul className="tech-list">
+                  {selectedProject.technologies.map((tech, index) => (
+                    <li key={index} className="tech-list-item">
+                      <span className='tech-list-item-header'>{tech.name}</span>
+                      <br />
+                      {`(${tech.use})`}
+                    </li>
+                  ))}
+                </ul>))
             )}
             {selectedTab === 'view-tab' && selectedProject && (
               <img src={selectedProject.imageUrl} className='project-image' />
