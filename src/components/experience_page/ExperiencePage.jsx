@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import "./ExperiencePage.css"
 import { ExperiencePage1 } from './page1/ExperiencePage1';
 import { ExperiencePage2 } from './page2/ExperiencePage2';
 

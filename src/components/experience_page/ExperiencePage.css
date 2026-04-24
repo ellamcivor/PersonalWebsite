@@ -5,22 +5,29 @@
   overflow: hidden;
 }
 
-.experience-next-page-btn {
+.experience-page-next-btn {
   z-index: 16;
   right: 0;
 }
 
-.experience-left-page-container {
-  /* background-color: red; */
-  height: 100%;
-  width: 50%;
-  padding: 1% 2% 1% 3.5%;
-  overflow: scroll;
+.experience-page-back-btn {
+  z-index: 16;
 }
 
-.experience-right-page-container {
-  /* background-color: blue; */
-  height: 100%;
-  width: 50%;
-  right: 0;
-}
+.experience-left-page-container {
+	/* background-color: red; */
+	height: 100%;
+	width: 50%;
+	overflow: scroll;
+  }
+  
+  .experience-right-page-container {
+	/* background-color: blue; */
+	height: 100%;
+	width: 50%;
+	right: 0;
+  }
+
+  .patrick-hand-text {
+    font-family: 'Patrick Hand';
+  }

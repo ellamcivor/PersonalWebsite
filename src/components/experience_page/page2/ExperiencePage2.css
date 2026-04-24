@@ -1,3 +1,110 @@
-.experience {
-  z-index: 16;
+.e2-page-background {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.e2-title-text {
+  font-family: "McLaren", sans-serif;
+}
+
+.e2-digital-text {
+  font-family: "Oxygen Mono", monospace;
+}
+
+#e2-uofg-title {
+  color: #840D0D;
+  font-size: 2vw;
+  top: 0%;
+  left: 17%;
+}
+
+#e2-computer-window {
+  height: 75%;
+  top: 10%;
+  left: 5%;
+}
+
+#e2-uofg-description-container {
+  /* background-color: rgba(129, 55, 68, 0.563); */
+  height: 48%;
+  width: 43%;
+  top: 20%;
+  left: 23%;
+  padding: 0 3%;
+  overflow: scroll;
+}
+
+#e2-gryphon-logo {
+  height: 12%;
+  bottom: 12%;
+  right: 7%;
+}
+
+#e2-linkedin-blurb {
+  font-size: 0.8vw;
+  width: 60%;
+  bottom: 2%;
+  left: 30%;
+}
+
+#e2-tutoring-title {
+  font-size: 1.4vw;
+  color: rgb(95, 98, 95);
+  top: 0;
+  left: 20%;
+}
+
+#e2-lined-paper-scrap {
+  height: 37%;
+  top: 7%;
+  left: 10%;
+}
+
+#e2-tutoring-description {
+  /* background-color: #840d0d64; */
+  height: 33%;
+  width: 75%;
+  top: 7%;
+  left: 12%;
+  overflow: scroll;
+  color: rgb(90, 89, 89);
+}
+
+#e2-guest-check {
+  height: 55%;
+  top: 42%;
+  left: 6%;
+}
+
+#e2-serving-description {
+  /* background-color: rgba(0, 0, 255, 0.241); */
+  height: 38%;
+  width: 40%;
+  top: 57%;
+  left: 8%;
+  overflow: scroll;
+  font-family: "Nanum Pen Script", cursive;
+  font-size:15px;
+}
+
+#e2-waters-edge-img {
+  height: 30%;
+  top: 40%;
+  right: 8%;
+}
+
+@media (max-width: 750px) {
+  #e2-uofg-description-container {
+    font-size: 1.2vw;
+  }
+
+  #e2-tutoring-description {
+    font-size: 1.2vw;
+  }
+
+  #e2-serving-description {
+    font-size: 1.2vw;
+  }
 }

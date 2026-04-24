@@ -15,7 +15,7 @@ export function ExperiencePage1({ goToPage2 }) {
   return (
     <div className="experience-page-container">
       <button
-        className=" glue-on experience-next-page-btn"
+        className=" glue-on experience-page-next-btn"
         onClick={goToPage2}
       >
         Next
@@ -26,7 +26,7 @@ export function ExperiencePage1({ goToPage2 }) {
         <img src={PortfolioDayInstallation} className='portfolio-day-installation-img' />
         
         <div className='esa-title'>Etobicoke School of the Arts</div>
-        <p className='esa-text'>
+        <p className='patrick-hand-text'>
           At Etobicoke School of the Arts, I studied as a Contemporary Arts
           major in an environment that prioritized creativity, independence,
           and conceptual thinking. We were given a unique freedom to explore
@@ -44,7 +44,7 @@ export function ExperiencePage1({ goToPage2 }) {
           critically, and giving constructive feedback.
         </p>
         <img src={ArchitecturalModel} className='architectural-model-img' />
-        <p className='esa-text'>
+        <p className='patrick-hand-text'>
           This program emphazised conceptual art, encouraging us to create, with
           intention. We used art as a way to explore ideas, communicate meaning,
           and address problems, rather than focusing solely on technical excecution.
@@ -65,7 +65,7 @@ export function ExperiencePage1({ goToPage2 }) {
         <img src={LaceTape} className='lace-tape glue-on' />
 
 
-        <p className='esa-text glue-on' id='animation-description'>
+        <p className='patrick-hand-text glue-on' id='animation-description'>
           I took animation courses at ESA where I worked on projects such
           as a collaborative claymation film and flipbooks, as well as learned
           tools like Adobe Animate. Here, I gained my first exposure to coding
