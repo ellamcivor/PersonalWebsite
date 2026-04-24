@@ -1,8 +1,40 @@
+#hobbies-page-title {
+  z-index: 15;
+  height: 20%;
+  top: 42%;
+  left: 30%;
+}
+
+#title-opt-2 {
+  z-index: 15;
+  height: 35%;
+  top: 35%;
+  left: 38%;
+}
+
+#title-background {
+  height: 100%;
+}
+
+#title-2 {
+  top: 27%;
+  left: 18%;
+  font-size: 350%;
+  font-family: "Lavishly Yours", cursive;
+  color: rgb(78, 47, 47);
+}
+
 #hobbies-gingham-paper-1 {
   top: 6%;
   left: 4%;
   height: 45%;
   z-index: 12;
+}
+
+#hobbies-gingham-paper-2 {
+  top: 4%;
+  right: 2%;
+  height: 46%;
 }
 
 #hobbies-star-paper {
@@ -16,6 +48,7 @@
   bottom: 4%;
   left: 5%;
   height: 40%;
+  z-index: 10;
 }
 
 #hobbies-pink-striped-paper {
@@ -59,19 +92,6 @@
   left: 16%;
 }
 
-#hobbies-page-title {
-  z-index: 15;
-  height: 20%;
-  top: 42%;
-  left: 30%;
-}
-
-#hobbiesgingham-paper-2 {
-  top: 4%;
-  right: 2%;
-  height: 46%;
-}
-
 #hobbies-sticker-musical-stars {
   height: 30%;
   right: 5%;
@@ -109,9 +129,9 @@
 
 #hobbies-sticker-books {
   z-index: 17;
-  height: 27%;
+  height: 23%;
   bottom: 3%;
-  left: 33%;
+  left: 30%;
 }
 
 #hobbies-sticker-drawing {
@@ -134,4 +154,9 @@
   bottom: 12%; 
   right: 32%;
   transform: rotate(30deg);
+}
+
+#hobbies-left-background {
+  height: 100%;
+  width: 50%;
 }

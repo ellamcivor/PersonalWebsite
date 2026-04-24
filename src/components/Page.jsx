@@ -49,10 +49,6 @@ export function Page() {
 
   return (
     <div className="page-container">
-      {/*
-        <Route path="experience" element={<ExperiencePage />}></Route>
-        <Route path="hobbies" element={<HobbiesPage />}></Route> 
-      */}
       <div className="notebook-container">
         <img src={Notebook} className="notebook-image" />
         <TabBar side="left" tabs={leftTabs} />
@@ -60,6 +56,7 @@ export function Page() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="projects" element={<ProjectsPage />} />
+          <Route path="experience" element={<ExperiencePage />}></Route>
           <Route path="hobbies" element={<HobbiesPage />}></Route> 
           <Route path="crochet-projects" element={<CrochetPage />} />
           <Route path="journals" element={<JournalsPage />} />
