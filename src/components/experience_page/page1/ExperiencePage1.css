@@ -1,0 +1,153 @@
+.experience-next-page-btn {
+  z-index: 16;
+  right: 0;
+}
+
+.experience-left-page-container {
+  /* background-color: red; */
+  height: 97%;
+  width: 44.5%;
+  padding: 1% 2% 1% 3.5%;
+  overflow: scroll;
+}
+
+.experience-right-page-container {
+  /* background-color: blue; */
+  height: 100%;
+  width: 50%;
+  right: 0;
+}
+
+.graph-paper-background {
+  height: 100%;
+  width: 50%;
+}
+
+.red-paper-background {
+  height: 100%;
+  width: 50%;
+  right: 0;
+}
+
+.esa-title {
+  color: #9D1010;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8vw;
+  margin-top: 4%;
+}
+
+.esa-text {
+  font-family: 'Patrick Hand';
+}
+
+.portfolio-day-installation-img {
+  float: right;
+  height: 28%;
+  margin-top: 4%;
+}
+
+.architectural-model-img {
+  float: left;
+  height: 28%;
+  margin-right: 3%;
+}
+
+.red-bow {
+  top: 0;
+  right: 45%;
+  height: 20%;
+  z-index: 14;
+}
+
+.lined-paper-scrap {
+  height: 27%;
+  top: 2%;
+  left: 8%;
+  z-index: 11;
+}
+
+.red-gingham-scrap {
+  height: 40%;
+  right: 0;
+  z-index: 12;
+}
+
+.experience-lined-paper-background {
+  height: 68%;
+  aspect-ratio: 40 / 65;
+  bottom: 5%;
+  right: 8%;
+  z-index: 10;
+}
+
+.art-film-reel {
+  height: 60%;
+  bottom: 7%;
+  left: 5%;
+}
+
+.silver-star-sticker {
+  z-index: 13;
+  height: 20%;
+  right: 2%;
+  top: 20%;
+}
+
+.lace-tape {
+  height: 12%;
+  z-index: 13;
+  bottom: 2%;
+  left: 27%;
+  transform: rotate(15deg);
+}
+
+#animation-description {
+  z-index: 13;
+  width: 55%;
+  left: 20%;
+  top: 4%;
+  color: rgb(99, 99, 99);
+  font-size: 1vw;
+  /* line-height: 105%; */
+}
+
+.pd-title-container {
+  z-index: 13;
+  top: 30%;
+  left: 40%;
+  display: flex;
+}
+
+.pd-title {
+  margin-left: 10%;
+  background-color: #a54b4bb4;
+  display: inline-block;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+.pd-title-rotation-1 {
+  transform: rotate(-4deg);
+}
+.pd-title-rotation-2 {
+  transform: rotate(3deg);
+}
+
+.pd-description-container {
+  /* background-color: rgba(0, 0, 255, 0.658); */
+  height: 59%;
+  width: 56%;
+  z-index: 15;
+  top: 36%;
+  left: 35%;
+  overflow: scroll;
+}
+
+#pd-description {
+  color: rgb(69, 68, 68);
+  font-size: 11px;
+  line-height: 127%;
+  margin-left: 10%;
+}
